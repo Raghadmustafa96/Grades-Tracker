@@ -1,0 +1,97 @@
+body{
+  background-image: url('../img/school.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#banner{
+  font-size: 40px;
+  text-align: center;
+  padding: 25px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 60px;
+}
+
+main{
+    width: 100%;
+    display:inline-block;
+    position: relative;
+    min-height: 100vh;
+}
+
+#div_form{
+    width: 30%;
+    float: left;
+    margin-left: 100px;
+    background-color: rgb(134, 134, 223);
+    width: 30%;
+    padding-top: 30px;
+}
+
+input[type=text], select {
+    width: 60%;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 70px;
+    height: 40px;
+  }
+  
+  input[type=submit] {
+    width: 60%;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 70px;
+    height: 40px;
+
+  }
+
+  label{
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      margin-left: 110px;
+  }
+
+  #div_table{
+    width: 50%;
+    float: right;
+    background-color: rgb(134, 134, 223);
+    padding-top: 30px;
+    margin-right: 50px;
+  }
+
+  table{
+      background-color: rgb(112, 111, 111);
+      color: white;
+      margin: 40px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+
+  td,th{
+      border: solid 1px white;
+      width: 200px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+  }
+
+  th{
+      background-color: black;
+      padding: 10px;
+  }
+
+  tr{
+      height: 30px;
+  }
+
+  td{
+      padding-top: 5px;
+  }
